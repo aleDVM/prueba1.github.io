@@ -44,9 +44,11 @@ nav.navbar {
 
 .nosotros {
   margin: 100px 0px 100px 30px;
+  font-family:  Arial, Helvetica, Verdana, sans-serif;
+  line-height: 24px;
 }
 
-h2 {
+h1 {
   text-align: center;
 }
 
@@ -82,11 +84,33 @@ h2 {
   width: 200px;
 }
 
+.izquier{
+  float: right;
+}
+.parrnoti{
+  font-size: 1.2rem;
+
+}
+
+.no{
+  text-align: center;
+  margin-bottom: 15vh;
+}
+
+.btn{
+  text-align: center;
+}
+
 footer {
   margin-top: 50px;
   font-size: 10px;
   background-color: #256853;
   color: white;
+
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100vw;
 }
 
 @media (max-width: 1000px) {
@@ -99,7 +123,7 @@ footer {
     position: relative;
     width: 100%;
     height: 100px;
-  
+
   }
   .dos {
     position: relative;
